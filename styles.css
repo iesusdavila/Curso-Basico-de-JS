@@ -135,6 +135,7 @@ main {
   gap: 10px;
   list-style: none;
   width: 50%;
+  margin-left: 100px;
 }
 
 .footer-page ul li {
