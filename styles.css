@@ -1,0 +1,181 @@
+:root {
+  margin: 0;
+  font-family: "DM Sans";
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(
+    45deg,
+    rgba(244, 229, 11, 1) 0%,
+    rgba(5, 5, 5, 1) 21%,
+    rgba(5, 5, 5, 1) 50%,
+    rgba(5, 5, 5, 1) 77%,
+    rgba(244, 229, 11, 1) 100%
+  );
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 29px;
+  color: #e7be09;
+  margin: 0;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+main {
+  background-color: #ffe600;
+}
+
+.selectGen {
+  border: none;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(219, 235, 235);
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 8px;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 2px 1px 5px 1px rgba(176, 196, 211, 0.87);
+  cursor: pointer;
+}
+
+.selectGen option {
+  width: 100%;
+  background-color: rgb(219, 235, 235);
+  font-family: "Noto Sans";
+  font-size: 14px;
+}
+
+.text-intro {
+  font-size: 20px;
+}
+
+.botons {
+  margin-bottom: 2rem;
+}
+
+.botons .equipment-1,
+.botons .equipment-2,
+.botons .equipment-3 {
+  border: none;
+  border-radius: 8px;
+  width: 180px;
+  height: 30px;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 2px 1px 5px 1px rgba(176, 196, 211, 0.87);
+  cursor: pointer;
+}
+
+.botons button:hover {
+  background-color: rgb(143, 12, 12);
+  color: #ffe600;
+  box-shadow: 2px 1px 5px 1px rgb(100, 9, 9);
+}
+
+.botons .equipment-2 {
+  margin: 0 20px;
+}
+
+.ubicate-img {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+
+.ubicate-img img {
+  width: 380px;
+  border-radius: 8px;
+  box-shadow: 2px 1px 5px 1px #e7be09;
+}
+
+.ubicate-img img:hover {
+  transform: scale(1.05);
+}
+
+.photo-team img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.footer-page {
+  display: flex;
+  background-color: rgb(14, 13, 13);
+}
+
+.footer-page ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  width: 50%;
+}
+
+.footer-page ul li {
+  justify-content: left;
+  color: rgb(250, 250, 243);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-page div {
+  width: 50%;
+}
+
+.footer-page img {
+  width: 120px;
+  margin: 32px auto;
+}
+
+.footer-page ul li:nth-child(1) {
+  width: 160px;
+  background-image: url(./icons/facebook.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-page ul li:nth-child(2) {
+  width: 160px;
+  background-image: url(./icons/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-page ul li:nth-child(3) {
+  width: 130px;
+  background-image: url(./icons/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-page ul li:nth-child(4) {
+  width: 130px;
+  background-image: url(./icons/tiktok.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-page ul li:hover {
+  color: rgba(244, 229, 11, 1);
+}
+
+.footer-page img:hover {
+  transform: scale(1.2);
+}

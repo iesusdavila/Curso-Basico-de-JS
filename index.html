@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vestimenta | BSC</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Noto+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <img src="./icons/bsc-especial.png">
+    <h1>
+      Barcelona Sporting Club
+    </h1>
+    <img src="./icons/bsc.png">
+  </header>
+
+  <main>
+
+    <section class="select-equipments">
+
+      <div class="contenedor-gen-eq">
+        <label for="genero"></label>
+        <select class="selectGen" name="gen-equip" id="genero">
+          <option value="eqMen">Equipo Masculino</option>
+          <option value="eqWomen">Equipo Femenino</option>
+        </select>
+        <i></i>
+      </div>
+
+      <p class="text-intro">Seleccione la equipacion que desee</p>
+
+      <div class="botons">
+        <button type="button" class="equipment-1" onclick="selectionEquip1()">
+          Primera Equipacion
+        </button>
+
+        <button type="button" class="equipment-2" onclick="selectionEquip2()">
+          Segunda Equipacion
+        </button>
+
+        <button type="button" class="equipment-3" onclick="selectionEquip3()">
+          Tercera Equipacion
+        </button>
+      </div>
+
+      <div class="ubicate-img">
+        <img src="./assets/men/first_equipment_front.jpg" alt="Camiseta desde una vista frontal" class="img-equipment">
+
+        <img src="./assets/men/first_equipment_back.jpg" alt="Camiseta desde una vista trasera" class="img-equipment">
+      </div>
+
+    </section>
+
+    <div class="photo-team">
+      <img src="./icons/jugadores.png" alt="Imagen del primer plantel de BSC" id="team">
+    </div>
+
+  </main>
+
+  <footer class="footer-page">
+    <ul>
+      <li>Facebook</li>
+      <li>Instagram</span></li>
+      <li>Twitter</li>
+      <li>TikTok</li>
+    </ul>
+
+    <div>
+      <img src="./icons/amarillo-de-verdad.svg" alt="Imagen de amarillo de verdad">
+    </div>
+  </footer>
+
+  <script src="mainProject.js"></script>
+
+</body>
+
+</html>

@@ -1,2 +1,2 @@
-# Curso-Basico-de-JS
-Creacion de una pagina para la seleccion de camisetas tanto del primero equipo femenino o masculino de BSC.
+# Curso-basico-JavaScript
+Introducción a JS haciendo uso de HTML y CSS para poder visualizar de mejor forma lo ejecutado.
